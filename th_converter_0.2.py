@@ -27,7 +27,7 @@ layout = [[Menu(menu_def, )],
                  relief=RELIEF_SUNKEN, tooltip='Plots the mVs VS C°'),],
           [Exit()]]
 
-window = Window('Convert mV <--> C°',return_keyboard_events=True).Layout(layout)     
+window = Window('Convert mV <--> C°',return_keyboard_events=True,location=(250, 250)).Layout(layout)     
 th_type = None
 externalDataTrigger = False
 
