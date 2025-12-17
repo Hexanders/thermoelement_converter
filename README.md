@@ -2,6 +2,10 @@
 
 A GUI application for converting thermocouple voltage (mV) to temperature (Celsius) and vice versa.
 
+
+<img width="900" height="726" alt="image" src="/entity/examples/pictures/Screenshot_gui.png" />
+
+
 ## Disclaimer
 
 This project was heavily developed with the assistance of **Claude Code** (Anthropic's AI coding assistant). Major contributions include:
@@ -260,3 +264,4 @@ The application outputs debug information to the terminal. Run from terminal to 
 ## License
 
 This project uses standard NIST thermocouple coefficients which are in the public domain.
+
